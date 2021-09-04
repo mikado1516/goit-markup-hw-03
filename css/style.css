@@ -126,6 +126,23 @@ button {
   color: var(--main-color);
 }
 
+#current {
+  position: relative;
+  color: #2196f3;
+  margin-bottom: 10px;
+}
+
+#current:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+  bottom: -33px;
+  left: 0;
+}
+
 .contact-links a {
   font-weight: 500;
   font-size: 14px;
@@ -185,7 +202,6 @@ button {
   margin: 0 auto;
   display: block;
   margin: 0 auto;
-  
 }
 
 .hero-btn:focus,
@@ -205,7 +221,6 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 
 /*--HERO--*/
 
@@ -261,7 +276,7 @@ button {
   position: relative;
 }
 .about-item {
-padding: 10px ;
+  padding: 10px;
 }
 
 /*--MAIN--*/
@@ -369,7 +384,6 @@ padding: 10px ;
 
 /*--Portfolio--*/
 
-
 .gallery-btn {
   font-weight: 500;
   font-size: 16px;
@@ -383,11 +397,6 @@ padding: 10px ;
   display: inline-block;
   text-decoration: none;
 }
-
-.button-container {
-  
-}
-
 .gallery-btn:hover,
 .gallery-btn:focus {
   background: var(--secondary-color);
@@ -396,13 +405,12 @@ padding: 10px ;
 }
 
 .galler-nav > .container .list {
-  display: flex ;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 94px;
   margin-bottom: 35px;
 }
-
 .gallery-list-title {
   font-weight: 700;
   font-size: 18px;
